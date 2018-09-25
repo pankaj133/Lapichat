@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_bar_layout" android:id="@+id/register_toolbar"></include>
+
+    <TextView
+        android:id="@+id/createacc"
+        android:layout_below="@+id/register_toolbar"
+        android:layout_margin="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create a New Account"
+        android:textSize="24sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        />
+
+    <EditText
+        android:layout_below="@+id/createacc"
+        android:id="@+id/Regname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/display_name"
+         />
+
+    <EditText
+        android:id="@+id/Regemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Regname"
+        android:hint="@string/email"
+        android:layout_margin="10dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/Regpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/Regemail"
+        android:hint="@string/password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/Registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Regpassword"
+        android:text="CREATE ACCOUNT"
+        android:layout_marginLeft="210dp"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        />
+</RelativeLayout>

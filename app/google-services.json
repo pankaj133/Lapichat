@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "892795316782",
+    "firebase_url": "https://lapichat-4157a.firebaseio.com",
+    "project_id": "lapichat-4157a",
+    "storage_bucket": "lapichat-4157a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892795316782:android:517554279552a37c",
+        "android_client_info": {
+          "package_name": "com.example.pankaj.lapichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892795316782-37iu9pbga7vbsjvaqo7ea7fqatitohev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9buTpmouEaRfk8cySGPpYK_c8jTVGjLM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
